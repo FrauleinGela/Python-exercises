@@ -25,8 +25,9 @@ def add_to_index(index, keyword, url):
 
 
 
-
-
+x = 'abc'
+output = ['v']
+output[-1] = output[-1]+'a'
 add_to_index(INDEX, 'udacity', 'http://udacity.com')
 add_to_index(INDEX, 'computing', 'http://acm.org')
 add_to_index(INDEX, 'udacity', 'http://npr.org')
